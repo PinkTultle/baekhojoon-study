@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\</FILEPATH>
+      <FILENAME>Round1_BOJ_10828_stack.c</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>NULL 포인터 'temp'을(를) 역참조하고 있습니다. </DESCRIPTION>
+    <FUNCTION>push</FUNCTION>
+    <DECORATED>push</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\</FILEPATH>
+        <FILENAME>Round1_BOJ_10828_stack.c</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\</FILEPATH>
+        <FILENAME>Round1_BOJ_10828_stack.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'temp'은(는) NULL일 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\</FILEPATH>
+        <FILENAME>Round1_BOJ_10828_stack.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'temp'이(가) 역참조되었지만 여전히 NULL일 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

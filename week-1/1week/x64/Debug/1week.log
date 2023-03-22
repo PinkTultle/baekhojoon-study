@@ -1,0 +1,11 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5652,5): warning MSB3061: "D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\x64\Debug\1week.exe" 파일을 삭제할 수 없습니다. 'D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\x64\Debug\1week.exe' 경로에 대한 액세스가 거부되었습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : 'd:\onedrive\기본폴더\대학\알고리즘 스터디\1week\1week\x64\debug\1week.exe' 경로에 대한 액세스가 거부되었습니다.
+  Round1_BOJ_10828_stack.c
+D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\Round1_BOJ_10828_stack.c(27,27): warning C4047: '=': 'char'의 간접 참조 수준이 'char *'과(와) 다릅니다.
+D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\Round1_BOJ_10828_stack.c(35,21): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\Round1_BOJ_10828_stack.c(41,7): warning C4013: 'empty'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\Round1_BOJ_10828_stack.c(44,22): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\Round1_BOJ_10828_stack.c(63,15): warning C4047: '함수': 'stack *'의 간접 참조 수준이 'stack **'과(와) 다릅니다.
+D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\Round1_BOJ_10828_stack.c(63,13): warning C4024: 'empty': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\Round1_BOJ_10828_stack.c(86,4): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+LINK : fatal error LNK1104: 'D:\OneDrive\기본폴더\대학\알고리즘 스터디\1week\1week\x64\Debug\1week.exe' 파일을 열 수 없습니다.
